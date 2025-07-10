@@ -53,3 +53,47 @@ h3{
   color: #070211;
   text-align: center;
 }
+
+.section-area-02{
+  margin-top: 100px;
+}
+
+.main-section{
+  background-image: url(/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  height: 600px;
+}
+
+
+.main-section-title{
+  font-size: 64px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.main-section-description{
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+button{
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+}
+.main-section{
+  display: flex;
+  align-items: center;
+}
+.div3{
+  padding: 126px;
+}
+.div4{
+  padding: 68px;
+}

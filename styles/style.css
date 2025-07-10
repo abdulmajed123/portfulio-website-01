@@ -5,14 +5,23 @@ main{
   
 }
 .section-area{
-  background-image: url(/images/Banner\ Image.png);
+  background-image: url(./images/Banner\ Image.png);
   width: 1320px;
   height: 600px;
+}
+
+.section-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .banner-title{
   color: #FFFFFF;
   font-size: 32px;
   text-align: center;
+  
 
 }
 
@@ -24,9 +33,9 @@ main{
 
 }
 
-.div1{
+/* .div1{
   padding: 100px 344px;
-}
+} */
 
 .div2{
   margin: 40px auto;
@@ -89,11 +98,81 @@ button{
 }
 .main-section{
   display: flex;
+  /* justify-content: center; */
   align-items: center;
 }
 .div3{
-  padding: 126px;
+  padding: 126px 126px;
+
 }
 .div4{
   padding: 68px;
+}
+
+.section-area-03{
+  width: 1320px;
+  height: 482px;
+  background:hwb(0 66% 11% / 0.326);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.font-size{
+  font-size: 32px;
+  color: #070211;
+}
+
+.button{
+  /* display: inline-block; */
+  text-align: center;
+  
+}
+.section-button{
+  background: #FF0000;
+  padding: 20px 30px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+/* .div5{
+  margin-top: 100px;
+  padding: 100px 385px;
+  
+} */
+
+.section-area-04{
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-heading-title-name{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #FF0000;
+}
+.section-heading-sub-title{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.section-heading-description{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.525);
+}
+.section-area-05-title{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.section-area-05-description{
+  font-size: 20px;
 }

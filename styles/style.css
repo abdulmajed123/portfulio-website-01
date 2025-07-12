@@ -7,14 +7,14 @@
 
 main{
   width: 1320px;
-  background: beige;
+  /* background: beige; */
   margin: 50px auto;
   
 }
 
 
 .header-section{
-  background-image: url("../images/Vectorrr.png");
+  background-image: url("../images/banner image.png");
   background-size: cover;
   height: 600px;
   display: flex;
@@ -59,4 +59,34 @@ main{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.section-area-02-container{
+  background-image: url('../images/Vectorrr.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.section-area-02-heading{
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+.section-area-02-description{
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.section-area-02-button{
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  color: #FFFFFF;
+  margin: 20px 10px;
+  border: none;
 }

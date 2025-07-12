@@ -7,14 +7,14 @@
 
 main{
   width: 1320px;
-  background: beige;
+  /* background: beige; */
   margin: 50px auto;
   
 }
 
 
 .header-section{
-  background-image: url('/images/banner image.png');
+  background-image: url('../images/banner image.png');
   background-size: cover;
   height: 600px;
   display: flex;
@@ -90,3 +90,47 @@ main{
   margin: 20px 10px;
   border: none;
 }
+ 
+ .section-area-03{
+  height: 200px;
+  padding: 90px 300px;
+  background: hsl(0, 7%, 91%);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(235, 216, 216), rgb(235, 235, 225));
+  
+   
+} 
+
+
+
+
+
+.hotel-park-title{
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #070211;
+  text-align: center;
+}
+
+.section-area-03-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+
+}
+.section-area-03-button button{
+  background: #FF0000;
+  border: none;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+

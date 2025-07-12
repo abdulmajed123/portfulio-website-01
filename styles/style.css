@@ -1,7 +1,23 @@
-.header-section{
-  max-width: 1320px;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 1320px;
+  background: beige;
   margin: 50px auto;
-  background-image: url(./images/Banner Image.png);
+  
+}
+
+.header-section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Banner\ Image.png);
   background-size: cover;
   height: 600px;
 }
@@ -10,22 +26,36 @@
   font-size: 32px;
   color: #FFFFFF;
   text-align: center;
-  /* margin-bottom: 10px; */
-}
-.header-main-title{
-  font-size: 72px;
-  color: #FFFFFF;
-  /* margin-bottom: 10px; */
 }
 .header-sub-title{
-  text-align: center;
   font-size: 72px;
   color: #FFFFFF;
-  /* margin-top: 10px; */
+  text-align: center;
 }
 
-.header-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-area-01{
+  width: 802px;
+  height: 806px;
+  margin: 120px auto;
+}
+
+.section-area-heading{
+  font-size: 80px;
+  text-align: center;
+  color: #FF0000;
+}
+
+.section-area-title{
+  font-size: 24px;
+  color: #FF0000;
+  text-align: center;
+  margin-top: 66px;
+}
+
+.section-area-sub-title{
+  font-size: 48px;
+  color: #070211;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }

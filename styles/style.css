@@ -12,15 +12,21 @@ main{
   
 }
 
-.header-section{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header-section{
   background-image: url(/images/Banner\ Image.png);
   background-size: cover;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .header-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .header-title{
   font-size: 32px;

@@ -262,4 +262,53 @@ bottom: 330px;
 }
 
 
+.section-area-07{
+  background: #FF00000D;
+  padding: 200px 300px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.newsletter-heading{
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+
+.newsletter-paragraph{
+  font-size: 20px;
+  font-weight: 400;
+  color: #07021199;
+  margin-top: 10px;
+}
+
+.newsletter-searchbar input{
+  background: #FFFFFF;
+  padding: 11px 85px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0702114D;
+  margin-top: 30px;
+  border: none;
+  border-radius: 20px;
+ 
+}
+.newsletter-searchbar button{
+  padding: 15px 20px;
+  background: #FF0000;
+  border-radius: 20px;
+  position: relative;
+  bottom: 0;
+  right: 103px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+
+}
+.newsletter-searchbar{
+  
+  
+}
+
+
 

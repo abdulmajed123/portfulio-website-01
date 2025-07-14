@@ -234,5 +234,32 @@ bottom: 330px;
  
 }
 
+.shoes-area-title{
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+}
+
+.shoes-arae-heading{
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+
+.shoes-area-description{
+  font-size: 20px;
+  font-weight: 400;
+  color: #07021199;
+}
+
+.shoes-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+
+}
+
 
 

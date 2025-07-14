@@ -182,3 +182,57 @@ main{
   
 }
 
+.section-area-05{
+  height: 950px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.holiday-image-div{
+  margin-top: 100px;
+}
+
+
+
+.holiday-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.holiday-sub-title{
+  font-size: 72PX;
+  font-weight: 900;
+  color: #070211;
+  text-align: center;
+}
+
+.holiday-description{
+  font-size: 20px;
+  font-weight: 500;
+  color: #07021199;
+  text-align: center;
+}
+
+.holiday-image-div{
+  margin-top: 100px ;
+}
+
+
+.first-image{
+position: relative;
+right: -999px;
+top: 10px;
+bottom: 330px;
+}
+
+.second-image{
+  position: absolute;
+  top: 160px;
+  left: 30px;
+ 
+}
+
+
+
